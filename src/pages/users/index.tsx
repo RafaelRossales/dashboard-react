@@ -2,6 +2,7 @@ import { Flex,SimpleGrid,Box, theme,Heading,Button,Icon,Table,Text,Thead,Tr,Th,C
 import { Sidebar } from '../../components/Sidebar'
 import {Header} from '../../components/Header'
 import { RiAddLine, RiPencilLine } from 'react-icons/ri';
+import { Pagination } from '../../components/Pagination';
 
 
 
@@ -61,6 +62,8 @@ export default function  UserList(){
                             </Td>
                         </Tbody>
                     </Table>
+
+                    <Pagination/>
                 </Box>
             </Flex>
         </Box>
